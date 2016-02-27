@@ -11,4 +11,4 @@ $ npm install
 $ [PORT=<any port>] gulp
 ```
 
-then read this wiki to setup browser proxy 
+then read this [guide](https://github.com/xiechao06/youku-broker/wiki/How-to-setup-browser-proxy-to-work-with-this-tool) to setup browser proxy 
