@@ -2,6 +2,7 @@ var koa = require('koa');
 var json = require('koa-json');
 var cofy = require('cofy');
 var request = require('request-json');
+var config = require('./config.js');
 
 var app = koa();
 
@@ -13,4 +14,4 @@ app.use(json()).use(function *(next) {
     yield next;
 });
 
-app.listen(5000);
+app.listen(config.get('port'));
